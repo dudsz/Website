@@ -1,6 +1,10 @@
 
-function setTags(username, email, would) {
+function setTags(username, email) {
 	document.getElementById("lblUsername").innerHTML = username;
 	document.getElementById("lblEmail").innerHTML = email;
-	document.getElementById("lblWould").innerHTML = would;
+}
+
+function setLogin(username, password) {
+	document.getElementById("lblUsername").innerHTML = username;
+	document.getElementById("lblPassword").innerHTML = password;
 }
