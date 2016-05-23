@@ -9,6 +9,7 @@
 		<link rel="stylesheet" href="CSS/style.css" type="text/css">
 		<!-- Link scripts -->
 		<script type="text/javascript" src="JavaScript/signup.js"> </script>
+		
 	</head>
 
 	<body>
@@ -49,27 +50,28 @@
 					<div style="height: 30px;"> </div>
 				</div>
 				<div id="signup_content_main">
-					<form>
+					<form id="log-form">
 						<!-- Take inputs -->
 						<div class="row">
 							<label id="inUn"> Username: </label> <br/> 
-							<input type="text" id="username" autocomplete="off"> <br/>
+							<input type="text" name="un" id="username" autocomplete="off"> <br/>
 							<label id="inPw"> Password: </label> <br/>
-							<input type="text" id="password" autocomplete="off"> <br/> <br/>
+							<input type="text" name="pw" id="password" autocomplete="off"> <br/> <br/>
 							</div>
 					</form>	
 					<!-- Show inputs -->
  					<label id="lblUsername"> Username </label> <br/>
 					<label id="lblPassword"> Password </label> <br/> <br/>
-					<input type="button" onclick="setLogin(username.value, password.value);" value="Login"/> <br/>	
+			<!--		<input type="button" onclick="setLogin(username.value, password.value);" value="Login"/> <br/>	-->
+					<input type="button" onclick="testLogin();" value="Login"/> <br/>
 				</div>
 			</div>
 		
 	</body>
 	<!-- Footer -->
 	<footer>
-		<h4 class="footer-by"> Created by Markus Erlach. </h4>
-		<h4 class="footer-email"> markus.erlach@gmail.com </h4>
+		<h5 class="footer-by"> Created by Markus Erlach. </h5>
+		<h5 class="footer-email"> markus.erlach@gmail.com </h5>
 	</footer>
 </html>
 			

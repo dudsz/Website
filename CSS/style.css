@@ -53,8 +53,7 @@ body {
     list-style: none;
     height: 100%;
     margin-top: 50px;
-    /*opacity: 0.8;
-    */
+    /*opacity: 0.8; */
 }
 
 .ls-menu-wrapper {
@@ -141,6 +140,7 @@ body {
 #signup_content_main {
 	float: left;
 	text-align: left;
+	margin-left: 10px;
 }
 
 h1 {
@@ -169,11 +169,31 @@ footer {
 	position: fixed;
 	left: 0px;
 	bottom: 0px;
+	height: 40px;
 	width: 100%;
 	background-color: #333;
     color:white;
     clear:both;
-    text-align:center;
+}
+
+h5.footer-email {
+	float: right;
+	margin-right: 10px;
+	margin-top: 5px;
+	font-size: 14px;
+	font-family: "Helvetica Neue", Arial, sans-serif;
+	font-weight: 300;
+	letter-spacing: -1px;
+}
+
+h5.footer-by {
+	float: left;
+	margin-left: 10px;
+	margin-top: 5px;
+	font-size: 14px;
+	font-family: "Helvetica Neue", Arial, sans-serif;
+	font-weight: 300;
+	letter-spacing: -1px;
 }
 
 </style>
